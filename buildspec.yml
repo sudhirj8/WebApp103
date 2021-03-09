@@ -8,12 +8,12 @@ phases:
   pre_build:
     commands:
       - echo Restore started on 'date'
-      - dotnet restore \WebApp103\WebApp103.csproj
+      - dotnet restore /WebApp103/WebApp103.csproj
 
   build:
     commands:
       - echo Build started on 'date'
-      - dotnet build \WebApp103\WebApp103.csproj
+      - dotnet build /WebApp103/WebApp103.csproj
   
   post_build:
     commands:
